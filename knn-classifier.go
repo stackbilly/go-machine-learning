@@ -44,16 +44,16 @@ func main() {
 	fmt.Printf("\nConfusion Matrix:\n%s", evaluation.GetSummary(confusionMat))
 }
 
-//sample output
-//Confusion Matrix:
-//Reference Class True Positives  False Positives True Negatives  Precision      Recall                                                                        F
-//1 Score
-//--------------- --------------  --------------- --------------  ---------      ------                                                                        -
-//-------
-//Iris-versicolor 21              1               52              0.9545         0.9130                                                                        0
-//.9333
-//Iris-virginica  26              2               48              0.9286         1.0000                                                                        0
-//.9630
-//Iris-setosa     26              0               49              1.0000         0.9630                                                                        0
-//.9811
-//Overall accuracy: 0.9605
+/*sample output
+Confusion Matrix:
+Reference Class True Positives  False Positives True Negatives  Precision      Recall                                                                        F
+1 Score
+--------------- --------------  --------------- --------------  ---------      ------                                                                        -
+-------
+Iris-versicolor 21              1               52              0.9545         0.9130                                                                        0
+.9333
+Iris-virginica  26              2               48              0.9286         1.0000                                                                        0
+.9630
+Iris-setosa     26              0               49              1.0000         0.9630                                                                        0
+.9811
+Overall accuracy: 0.9605*/
