@@ -7,6 +7,7 @@ import (
 	"github.com/sjwhitworth/golearn/knn"
 )
 
+// simple iris knn classifier
 func main() {
 	data, err := base.ParseCSVToInstances("Iris.csv", true)
 	if err != nil {
