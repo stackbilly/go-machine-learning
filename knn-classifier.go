@@ -39,7 +39,7 @@ func KnnClassifier(dataset string) (base.FixedDataGrid, map[string]map[string]in
 
 // simple iris knn classifier
 func main() {
-	predictions, confusionMat := KnnClassifier("Iris.csv")
+	predictions, confusionMat := KnnClassifier("/datasets/Iris.csv")
 	fmt.Printf("Predictions:\n%s", predictions)
 	fmt.Printf("\nConfusion Matrix:\n%s", evaluation.GetSummary(confusionMat))
 }
